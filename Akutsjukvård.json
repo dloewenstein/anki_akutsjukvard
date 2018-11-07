@@ -1,0 +1,320 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "2d057d8c-e2b3-11e8-9ae9-9eb6d0d82a3d",
+    "deck_config_uuid": "2d057d8d-e2b3-11e8-9022-9eb6d0d82a3d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "2d057d8d-e2b3-11e8-9022-9eb6d0d82a3d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "LBEIMinAfter": 4,
+                "LBEIMinBefore": 3,
+                "LBGIMinAfter": 1,
+                "LBGIMinBefore": 1,
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 1000,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 1000
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "Electron-Transport-Chain-popquiz2.png",
+        "40800_2016_33_Fig2_HTML.gif",
+        "HCN+Mechanism+of+Action.jpg",
+        "latex-d95bdb4067e8005d19d15bfbd4e83d8980336c65.png",
+        "oxygen-hemoglobin-dissociation-curve-10-638.jpg",
+        "cyanide2_med.jpeg",
+        "latex-d39cad522ccbe5a31209793365754665a4d65556.png",
+        "799px-Cdn_CSp_Rule.png"
+    ],
+    "name": "Akutsjukvård",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "css": ".card {\n font-size: 150%;\n font-type: arial;\n background-color: white;\n width: 96%;\n height: 100%;\n text-align: center;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.centrera {\nwidth: 30em;\ndisplay: inline-block; \ntext-align: left;\n}\n.Extra {\nfont-style: italic;\nfont-size: 80%;\n}\n.sourceheading{\nfont-weight: bold;\ntext-align: left;\nfont-size: 90%;\nwidth: 80ch;\n}\n.source{\nfont-size: 80%;\ntext-align: left;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Hint",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Source",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze",
+            "sortf": 0,
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div class='centrera'>\n{{cloze:Text}}<br>\n{{#Hint}}{{hint:Hint}}{{/Hint}}<br>\n{{#Extra}}\n<br>\n<hr>\n<div class='Extra'>{{Extra}}</div>\n{{/Extra}}\n{{#Source}}\n<br>\n<div class = 'sourceheading'>Source</div><div class = 'source'>{{Source}}</div>\n{{/Source}}\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div class='centrera'>\n{{cloze:Text}} <br>\n{{#Hint}}{{hint:Hint}}{{/Hint}}\n</div>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vad är methemoglobin?<div>- {{c1::en form av hemoglobin med Fe3+ istället för Fe2+}}</div>",
+                "",
+                "<img src=\"40800_2016_33_Fig2_HTML.gif\"><img src=\"oxygen-hemoglobin-dissociation-curve-10-638.jpg\">",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "D!S*{<1c9G",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hur påverkar methemoglobin den syre-bärande förmågan?<div>- {{c1::kan ej bära syre, endast den reducerade formen av hemoglobin (Fe2+) kan bära syre}}</div><div>- {{c1::left-shift of oxyhemoglobin dissociationskurvan</div><div>&nbsp; - [$]\\uparrow[/$]&nbsp;affinitet för O2 men [$]\\downarrow[/$] förmåga att frisätta O2 till vävnaden}}</div>",
+                "",
+                "<img src=\"40800_2016_33_Fig2_HTML.gif\"><img src=\"oxygen-hemoglobin-dissociation-curve-10-638.jpg\">",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "KMvHob}?Js",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Om en patient har svåra symptom eller tecken på cyanos och du misstänker methemoglobinemi, vilket medel vill du då administrera?<div>- {{c1::Metylenblått}}</div>",
+                "",
+                "<div>methoglobin nivåerna borde sjunka signifikant inom 1h efter infusion</div><div><br></div><img src=\"40800_2016_33_Fig2_HTML.gif\"><img src=\"oxygen-hemoglobin-dissociation-curve-10-638.jpg\">",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "he5T~v%k(N",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Du kan behandla cyanos tillföljd av methemoglobinemi med metylenblått, hur verkar detta?<div>- {{c1::cofaktor som accelerar effektiviteten hos NADPH methemoglobin reductase (ökad reduktion av methemoglobin till hemoglobin)}}</div>",
+                "",
+                "<div><br></div><div><br></div><img src=\"40800_2016_33_Fig2_HTML.gif\"><img src=\"oxygen-hemoglobin-dissociation-curve-10-638.jpg\">",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "IZ>#UdIg(u",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vilket tillstånd i kroppen är det som oxiderande gifter ger upphov till?<div>- {{c1::man får methemoglobinemi}}</div>",
+                "",
+                "<img src=\"40800_2016_33_Fig2_HTML.gif\"><img src=\"oxygen-hemoglobin-dissociation-curve-10-638.jpg\"><div></div>",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "DHOb&*Gq.V",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hur verkar den toxiska mekanismen för cyanid?<div>- {{c1::cyanid binder till cytokrom oxidas (complex IV) i elektrontransportkedjan vilket inhiberar utnyttjandet av cellulärt O2}}</div><div>- {{c1::leder till anaerob metabolism (toxiska biprodukter) och tömning a ATP.}}</div>",
+                "",
+                "<img src=\"cyanide2_med.jpeg\"><br><div><img src=\"Electron-Transport-Chain-popquiz2.png\"><br></div><div><img src=\"HCN+Mechanism+of+Action.jpg\"><br></div>",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "mZ_`-@V@Ra",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vad är cyanokit?<div>- {{c1::Vitamin B12 (hydroxykobalamin)}}</div>",
+                "",
+                "",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "xEQ&(mG9{E",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Du har en traumapatient, nämn två metoder att bedömma om osäker nacke?<div>- {{c1::Nexus}}</div><div>- {{c1::Canadian C-spine rules}}</div>",
+                "",
+                "",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "i|HgOX<E[<",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Du skall bedömma om du behöver immobilisera nacken på en trauma patient, vad bedömer du enligt Nexus?<div><br><div>- {{c1::frånvaro av ömhet i medellinjen}}<br>- {{c1::frånvaro av fokal neurologisk påverkan}}<br>- {{c1::ingen intoxikation}}<br>- {{c1::normalt medvetande}}<br>- {{c1::frånvaro av smärtsam distraherande skada}}<br></div></div>",
+                "",
+                "<div>Varför intox?</div>- kan inte lita på pat, alkoholpåverkad kanske inte känner smärta<br><div><br></div><div>Varför inte distraherande skada?</div><div>- kanske inte känner att de har en halsryggfraktur</div>",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "F4Sq]^9fgx",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Canadian C-spine rules används ffa för att bedömma om man skall röntga halsryggen på en trauma patient, vad ingår i din bedömning?<div><br></div><div>- {{c1::ålder över 15}}<br>- {{c1::ingen känd sjukdom i kotpelaren}}<br>- {{c1::gcs 15}}<br>- {{c1::skada &lt; 48h}}<br>- {{c1::inga högriskfaktorer}}<br>- {{c1::förekomst av lågriskfaktorer}}<br>- {{c1::aktiv rotation av halsryggen 45 grader åt höger och åt vänster möjlig utan smärta}}<br></div>",
+                "",
+                "<img src=\"799px-Cdn_CSp_Rule.png\">",
+                "Föreläsning: Ralph Bolander"
+            ],
+            "flags": 0,
+            "guid": "b0{e#u<&8k",
+            "note_model_uuid": "7acb2bbe-d2b6-11e8-99b2-9eb6d0d82a3d",
+            "tags": [
+                "emergency_medicine",
+                "medicine::course::emergency_medicine::basics",
+                "trauma"
+            ]
+        }
+    ]
+}
